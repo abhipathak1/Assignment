@@ -1,13 +1,16 @@
+Sure, here's the formatted `readme.md` file for your Prospecta assignment:
+
+```markdown
 # Prospecta Assignment
 
 ## Coding Challenge
 
-## Features
+### Features
 
 - **Fetch API Data by Category**: Retrieve a list of public APIs filtered by a specific category.
 - **Add New API Entries**: Simulate adding new API entries to the system. (Note: This feature does not actually post data to the public APIs database).
 
-### 1. Fetching APIs by Category
+#### 1. Fetching APIs by Category
 
 To get a list of APIs by a specific category, use this endpoint:
 
@@ -15,7 +18,7 @@ To get a list of APIs by a specific category, use this endpoint:
 GET http://localhost:8080/byCategory?category=Anime
 ```
 
-### 2. Adding a New API Entry
+#### 2. Adding a New API Entry
 
 To simulate adding a new API entry, use this endpoint:
 
@@ -25,15 +28,13 @@ POST http://localhost:8080/AddEntry
 
 Note: It runs on port 8080, so adjust accordingly if needed.
 
-
 ## Theoretical Challenge
 
-```
-# CSV Calculator
+### CSV Calculator
 
 This program reads data from a CSV file, calculates formulas, and produces CSV output with the results.
 
-## Usage
+#### Usage
 
 1. Compile the `Main.java` file using a Java compiler:
    ```
@@ -47,7 +48,7 @@ This program reads data from a CSV file, calculates formulas, and produces CSV o
 4. The program will calculate the formulas and generate an output CSV file named `Output.csv` in the `src` directory.
 5. The calculated results will be printed to the console.
 
-## Input CSV Format
+#### Input CSV Format
 
 The input CSV file should contain two columns: cell references and their corresponding values or formulas.
 
@@ -64,11 +65,15 @@ C2,=A2+B2
 C3,=C2+B3
 ```
 
-## Error Handling
+#### Error Handling
 
 - The program handles errors such as invalid file paths, unreadable files, and incorrectly formatted CSV data.
 
-## Dependencies
+#### Dependencies
 
-- No external dependencies are required. The program is written in plain Java.
+```
+(No specific dependencies mentioned)
+```
+```
 
+This should present your assignment instructions in a clear and organized manner. Adjustments can be made according to your preferences or specific requirements.
