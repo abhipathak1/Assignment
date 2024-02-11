@@ -1,4 +1,3 @@
-Sure, here's the formatted `readme.md` file for your Prospecta assignment:
 
 ```markdown
 # Prospecta Assignment
