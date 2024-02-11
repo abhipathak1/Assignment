@@ -1,5 +1,4 @@
 
-```markdown
 # Prospecta Assignment
 
 ## Coding Challenge
@@ -63,16 +62,3 @@ C1,=5+A1
 C2,=A2+B2
 C3,=C2+B3
 ```
-
-#### Error Handling
-
-- The program handles errors such as invalid file paths, unreadable files, and incorrectly formatted CSV data.
-
-#### Dependencies
-
-```
-(No specific dependencies mentioned)
-```
-```
-
-This should present your assignment instructions in a clear and organized manner. Adjustments can be made according to your preferences or specific requirements.
