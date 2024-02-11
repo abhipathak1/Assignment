@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -34,6 +35,14 @@ public class ProService {
 			apiEntries.add(new ProEntity(title, description));
 		}
 		return apiEntries;
+	}
+
+	public ResponseEntity<Object> AddEntry(ProEntity entry) {
+		final String uri = API_URL;
+		RestTemplate restTemplate = new RestTemplate();
+		ResponseEntity<Object> result = restTemplate.postForEntity(uri, entry, Object.class);
+
+		return result;
 	}
 
 }
