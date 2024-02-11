@@ -1,0 +1,26 @@
+Theoretical Challenge
+
+
+1. How will you tackle the challenge above?
+2. What type of errors you would you check for?
+3. How might a user break your code?
+
+
+1. How will you tackle the challenge above?
+
+ I've approached the challenge by first reading data from the input CSV file,
+ then evaluating formulas and storing results, printing the results to the console,
+ and finally writing the results to the output CSV file.
+ 
+ 
+2. What type of errors you would you check for?
+ 
+I've included error handling for file I/O operations, 
+such as reading from the input CSV file and writing to the output CSV file.
+Additionally, I've added error handling for potential exceptions when parsing integers from the input data.
+
+
+3. How might a user break your code?
+
+Users might mess up the program by giving bad file paths,
+unreadable files, or incorrect CSV formats. 
